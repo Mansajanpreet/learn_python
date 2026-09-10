@@ -1,0 +1,1 @@
+print('Your assignment is to read "Halmet" by tomorrow.')
