@@ -12,4 +12,4 @@ years = int(input("Enter the number of years the money will grow: "))
 present_value = future_value / (1.0 + rate / 100)**years
 
 #Display the amount need to deposit.
-print("You will need t deposit this amount: ", present_value)
+print("You will need to deposit this amount: ", present_value)

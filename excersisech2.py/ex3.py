@@ -1,10 +1,10 @@
 print('Welcome to our bank!\n')
 
-first_name = input("Enter your name:")    #Display the first and last name.
-last_name = input("Enter your last name:")
-civic_number = input("Enter your civi number:")
-balance = float(input("How much money you have (SEK):")) #Display the loan amount and interest for user.
-interest_rate = float(input("Enter the interest rate:"))
+first_name = input("Enter your name: ")    #Display the first and last name.
+last_name = input("Enter your last name: ")
+civic_number = input("Enter your civi number: ")
+balance = float(input("How much money you have (SEK): ")) #Display the loan amount and interest for user.
+interest_rate = float(input("Enter the interest rate: "))
 
 balance_one_year = balance * (1 + (interest_rate / 100)) #Display balance after one year with interest.M
 

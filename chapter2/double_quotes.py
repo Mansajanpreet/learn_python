@@ -1,4 +1,4 @@
-print("Mansajanpreet singh")
-print("Wieselgrensgatan 6")
-print("Helsinborg,Sweden")
+print("singh")
+print("Helsinborg")
+print("Sweden")
 
