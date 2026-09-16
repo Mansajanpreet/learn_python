@@ -1,6 +1,5 @@
 title = input("Enter a title for your shopping list: ")
 
-shopping_list = ""
 
 while True:
     print("\nMenu")
@@ -29,4 +28,4 @@ while True:
         break
 
     else:
-        print("Invalid option. Please choose 1, 2, or 3.
+        print("Invalid option. Please choose 1, 2, or 3.")
