@@ -10,4 +10,5 @@ first_digit = number
 
 sum_of_digits = first_digit + middle_digit + last_digit
 
+print(f"{first_digit = }, {middle_digit = }, {last_digit = }")
 print('The sum of the three digit is ' + str(sum_of_digits))
