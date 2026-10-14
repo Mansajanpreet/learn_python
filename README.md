@@ -1,27 +1,43 @@
-# Named constants to represent the base hours and
-# the over time.
-BASE_HOURS = 40 # base hours per week.
-OT_multiplier = 1.5 # overtime multiplier
+# Learning Python
 
-# Get the hours worked and the hourly pay rate.
-hours = float(input('Enter the number of you worked: '))
-pay_rate = float(input('Enter the hourly pay rate: '))
+A collection of Python practice exercises and small command-line programs from my first year studying for a Bachelor's degree in Software Development at Kristianstad University, Sweden.
 
-# calculate and display the gross pay.
-if hours > BASE_HOURS:
-    # Calculate the gross pay with overtime.
-    # First, get the number of overtime hours worked.
-    overtime_hours = hours - BASE_HOURS
+This repository documents my learning progress. Some files are classroom exercises and works in progress, rather than finished applications.
 
-    # calculate the amount of overtime pay.
-    overtime_pay = overtime_hours * pay_rate * OT_multiplier
+## Topics covered
 
-    # Calculate the gross pay.
-    gross_pay = BASE_HOURS * pay_rate + overtime_pay
-else:
-    #calculate the gross pay without overtime.
-    gross_pay = hours * pay_rate
+- Input, output, variables, and formatted strings
+- Conditional statements and Boolean logic
+- Loops and repetition
+- Functions and parameters
+- Small interactive command-line programs
 
-# Display the gross pay.
-print(f'The gross pay is $ {gross_pay:,.2f} ')
+## Projects and exercises to explore
 
+| Program | What it demonstrates |
+| --- | --- |
+| [Shopping list with totals](main1/main.py) | Menu-driven input, item quantities, and calculating a total in SEK |
+| [Shopping list with reset](main4/main.py) | Loop-based menus, confirmation, and tracking resets |
+| [Shopping list with editable title](main6/main.py) | Updating state based on user choices |
+| [Banking exercise](exercise5.%20function/bank.py) | Functions for creating an account, depositing, withdrawing, and displaying a balance |
+
+The shopping-list programs in `main1`–`main6` are separate exercises exploring different features, not one integrated application.
+
+## Run an exercise
+
+Install Python 3, clone the repository, and run a file from the repository root, for example:
+
+```bash
+python main1/main.py
+```
+
+On some systems, use `python3` instead of `python`. Programs that use `input()` run in a terminal.
+
+## Next steps
+
+- Improve input validation and handle invalid numeric input
+- Refactor repeated code into reusable functions
+- Add examples and tests to selected exercises
+- Build a small standalone project from the concepts learned
+
+> Learning repository: code is retained to show progress, including areas I am still improving.
